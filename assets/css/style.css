@@ -1,0 +1,130 @@
+
+/*general css*/
+body{
+	font-family: 'Dosis', sans-serif;
+	
+}
+.menu{
+	background-color:#272522!important;
+	
+}
+.nav-item active a{
+	color:red!important;
+}
+.navbar-nav li a{
+	font-weight: 300;
+	text-transform: uppercase;
+	color:white!important;
+	padding: 0 12px!important;
+	display: block;
+}
+.navbar-nav li a:hover{
+	color:red!important;
+}
+.logo img{
+	width: 100%;
+}
+.nav-item.active a{
+	color: red!important;
+}
+.text-area{
+	background-color: rgba(1,0,2,0.4);
+}
+.wel-text{
+	text-align: center;
+	margin: 5px 5px;
+	padding: 45px;
+	
+}
+
+.about{
+	background-color:#fff;
+	
+}
+.about h1{
+	text-align: center;
+	padding: 70px;
+	font-size: 50px;
+	text-transform:uppercase;
+}
+.text{
+	font-size:16px;
+	text-align: justify;
+}
+.services{
+	margin: 85px 0;
+}
+.row{
+	text-align:center;
+	font-size:50px;
+	text-transform:uppercase;
+	
+}
+
+.service_item:hover .service_icon i{
+	transform: scale(1.2);
+}
+.service_icon i{
+	font-size: 38px;
+	color: #ff0000;
+	transition: 0.3s;
+}
+.container h2{
+	font-size: 18px;
+	color: #333333;
+	margin: 5px 0;
+	font-weight: 100%;
+}
+.container p{
+	font-size: 16px;
+	color: #333333;
+	text-align: center;
+}
+
+/* Red border */
+
+hr.new1 {
+  border-top: 3px dashed gold;
+}
+
+.container_skill{
+	background-color:#F2F2F2;
+	padding: 85px;
+}
+
+.row h2{
+	font-size:26px;
+	color:#392D2D;
+}
+.row p{
+	font-size:16px;
+	color: #333333;
+	text-align: left;
+	padding: 10px 25px;
+}
+.row h5{
+	text-align: left;
+}
+
+.icon{
+	text-align: center;
+}
+.icon i{
+	font-size:50px;
+	color:red;
+	padding: 45px 25px;
+}
+.icon .fa-facebook{
+	color:green;
+}
+
+.icon .fa-facebook:hover{
+	color:red;
+	font-size:50px;
+	transition:2s;
+}
+.icon .fa-twitter:hover{
+	color:ash;
+	font-size:60px;
+	transition:2s;
+}
